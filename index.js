@@ -9,7 +9,6 @@ var exec = require('child_process').exec;
 program
   .version(pkg.version)
   .description(pkg.description)
-  .alias('extract')
   .usage('<path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>')
 
   //.option('-p, --peppers', 'Add peppers')
