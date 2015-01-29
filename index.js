@@ -12,13 +12,13 @@ program
   .alias('extract')
   .usage('<path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>')
 
-  .option('-p, --peppers', 'Add peppers')
-  .option('-P, --pineapple', 'Add pineapple')
-  .option('-b, --bbq', 'Add bbq sauce')
-  .option(
-    '-c, --cheese [type]', 
-    'Add the specified type of cheese [marble]', 'marble'
-  )
+  //.option('-p, --peppers', 'Add peppers')
+  //.option('-P, --pineapple', 'Add pineapple')
+  //.option('-b, --bbq', 'Add bbq sauce')
+  //.option(
+  //  '-c, --cheese [type]', 
+  //  'Add the specified type of cheese [marble]', 'marble'
+  //)
   .parse(process.argv);
 /* 
 console.log('you ordered a pizza with:');
