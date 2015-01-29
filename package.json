@@ -1,6 +1,6 @@
 {
   "name": "extract-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A command line tool for extracting any archive file.",
   "main": "extract-cli.js",
   "scripts": {
@@ -11,12 +11,16 @@
     "extract",
     "cli"
   ],
+  "repository": { 
+    "type" : "git",
+    "url" : "http://github.com/gavinengel/extract.git"
+  },
   "author": "gavin@engel.com",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.6.0"
   },
   "bin": {
-    "extract": "bin/extract"
+    "extract": "./index.js"
   }
 }
