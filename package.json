@@ -1,6 +1,6 @@
 {
   "name": "extract-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A command line tool for extracting any archive file.",
   "main": "extract-cli.js",
   "scripts": {
