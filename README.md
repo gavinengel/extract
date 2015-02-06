@@ -1,9 +1,6 @@
 # extract
 A command line tool for extracting any archive file.
 
-# Magic Globals
-Similar to Magic Constants in PHP.  Useful for debugging.
-
 [![npm version](https://badge.fury.io/js/extract-cli.svg)](http://badge.fury.io/js/extract-cli)
 
 ## Usage
