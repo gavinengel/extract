@@ -17,7 +17,7 @@ A command line tool for extracting any archive file.
 
 ## Credits
 These sources have helped to create this module by sharing their code:
-* TODO
+* https://coderwall.com/p/agmblq/bash-function-for-extract-every-archive-with-one-word
 
 ## Alternatives
 These are alternative projects which can yield achieve a similar result:
