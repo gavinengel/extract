@@ -23,9 +23,6 @@ These sources have helped to create this module by sharing their code:
 These are alternative projects which can yield achieve a similar result:
 * https://github.com/xvoland/Extract 
 
-## TODO
-* include a -f flag to force delete existing unextracted file
-
 ## License
 
 (The MIT License)

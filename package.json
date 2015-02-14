@@ -1,27 +1,29 @@
 {
   "name": "extract-cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A command line tool for extracting any archive file.",
   "main": "extract-cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node extract-cli.js"
+    "test": "cp -f tests/orig/* tests/; rm -f tests/test.json; 6to5 es6/index.js -o index.js; 6to5 es6/functions.js -o functions.js; node . tests/test.json.gz; ls tests;"
   },
   "keywords": [
     "extract",
     "cli",
     "unzip"
   ],
-  "repository": { 
-    "type" : "git",
-    "url" : "http://github.com/gavinengel/extract.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gavinengel/extract.git"
   },
   "author": "gavin@engel.com",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^0.5.1",
     "commander": "^2.6.0"
   },
   "bin": {
     "extract": "./index.js"
+  },
+  "devDependencies": {
   }
 }
