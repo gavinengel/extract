@@ -13,6 +13,7 @@ A command line tool for extracting any archive file.
 
     -h, --help     output usage information
     -V, --version  output the version number
+    -f, --force    allow existing extracted files to be clobbered
 ```
 
 ## Credits
