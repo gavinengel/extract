@@ -29,9 +29,10 @@ export function extract (filename, force) {
   }
   
 
-
+  var validExt = false
   for(let key in exts) {
-    if (key === path.extname(target)) {            
+    if (key === path.extname(target)) {         
+      validExt = true   
       if (!this.exists(filename, key, force)) {
         var cmd = 'cd ' + targetDir + ';' + exts[key] + ' ' + targetName + '; cd -;'
         console.log(chalk.green(cmd))
@@ -39,6 +40,8 @@ export function extract (filename, force) {
       }
     }
   }
+
+  if (!validExt) console.log(chalk.red('File extension not recognized: ' + path.extname(target)))
 }
 
 export function exists (target, ext, force) {

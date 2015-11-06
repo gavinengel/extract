@@ -9,7 +9,8 @@
   "keywords": [
     "extract",
     "cli",
-    "unzip"
+    "unzip",
+    "gunzip"
   ],
   "repository": {
     "type": "git",

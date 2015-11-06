@@ -46,6 +46,9 @@ function extract(filename, force) {
   }
 }
 
+fs.exists('/etc/passwd', function (exists) {
+  util.debug(exists ? "it's there" : "no passwd!");
+}); <-- use this!
 function exists(target, ext, force) {
   var result = false;
 
